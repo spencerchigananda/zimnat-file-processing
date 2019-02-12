@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\modules\fileProcessing\models\CsvUpdateSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Csv Updates';
+$this->title = 'CSV Updates';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="csv-update-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Csv Update', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create CSV Update', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([

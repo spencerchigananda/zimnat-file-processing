@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\modules\fileProcessing\models\MnoInvestmentSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Mno Investments';
+$this->title = 'MNO Investments';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="mno-investment-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Mno Investment', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create MNO Investment', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([

@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model app\modules\fileProcessing\models\CsvUpdate */
 
 $this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Csv Updates', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'CSV Updates', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>

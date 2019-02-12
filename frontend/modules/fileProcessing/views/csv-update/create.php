@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\modules\fileProcessing\models\CsvUpdate */
 
-$this->title = 'Create Csv Update';
-$this->params['breadcrumbs'][] = ['label' => 'Csv Updates', 'url' => ['index']];
+$this->title = 'Create CSV Update';
+$this->params['breadcrumbs'][] = ['label' => 'CSV Updates', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="csv-update-create">

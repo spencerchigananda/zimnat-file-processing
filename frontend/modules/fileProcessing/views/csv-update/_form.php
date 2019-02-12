@@ -14,7 +14,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'table_name')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'date_updated')->textInput() ?>
+    <!--<?= $form->field($model, 'date_updated')->textInput() ?>-->
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

@@ -13,10 +13,10 @@
     </p>-->
 
     <ul class="nav nav-tabs">
-        <li><a href="index.php?r=fileProcessing/csvUpdate">Database record of CSV files</a></li>
-        <li><a href="index.php?r=fileProcessing/iapRevenue">Revenue</a></li>
-        <li><a href="index.php?r=fileProcessing/mnoInvestment">Interconnections</a></li>
-        <li><a href="#">Summary</a></li>
+        <li><a href="index.php?r=fileProcessing/csv-update">Database record of CSV files</a></li>
+        <li><a href="index.php?r=fileProcessing/iap-revenue"> IAP Revenue Table</a></li>
+        <li><a href="index.php?r=fileProcessing/mno-investment">MNO Investment Table</a></li>
+<!--        <li><a href="#">Summary</a></li>-->
     </ul>
 
 </div>

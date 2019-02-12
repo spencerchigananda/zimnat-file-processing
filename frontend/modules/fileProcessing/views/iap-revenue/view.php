@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model app\modules\fileProcessing\models\IapRevenue */
 
 $this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Iap Revenues', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'IAP Revenues', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>

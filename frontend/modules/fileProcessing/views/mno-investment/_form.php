@@ -38,7 +38,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'net_investment')->textInput() ?>
 
-    <?= $form->field($model, 'date_created')->textInput() ?>
+    <!--<?= $form->field($model, 'date_created')->textInput() ?>-->
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

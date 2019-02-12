@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\modules\fileProcessing\models\CsvUpdate */
 
-$this->title = 'Update Csv Update: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Csv Updates', 'url' => ['index']];
+$this->title = 'Update CSV Update: ' . $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'CSV Updates', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>

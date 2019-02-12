@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model app\modules\fileProcessing\models\MnoInvestment */
 
 $this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Mno Investments', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'MNO Investments', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>

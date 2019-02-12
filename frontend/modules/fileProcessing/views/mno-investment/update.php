@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\modules\fileProcessing\models\MnoInvestment */
 
-$this->title = 'Update Mno Investment: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Mno Investments', 'url' => ['index']];
+$this->title = 'Update MNO Investment: ' . $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'MNO Investments', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>

@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\modules\fileProcessing\models\IapRevenue */
 
-$this->title = 'Create Iap Revenue';
-$this->params['breadcrumbs'][] = ['label' => 'Iap Revenues', 'url' => ['index']];
+$this->title = 'Create IAP Revenue';
+$this->params['breadcrumbs'][] = ['label' => 'IAP Revenues', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="iap-revenue-create">

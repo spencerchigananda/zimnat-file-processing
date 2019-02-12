@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\modules\fileProcessing\models\IapRevenueSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Iap Revenues';
+$this->title = 'IAP Revenues';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="iap-revenue-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Iap Revenue', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create IAP Revenue', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
