@@ -27,7 +27,7 @@ class CsvUpdate extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['table_name', 'date_updated'], 'required'],
+            [['table_name'], 'required'],
             [['date_updated'], 'safe'],
             [['table_name'], 'string', 'max' => 150],
         ];

@@ -8,6 +8,7 @@ use app\modules\fileProcessing\models\CsvUpdateSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\db\Expression;
 
 /**
  * CsvUpdateController implements the CRUD actions for CsvUpdate model.
@@ -66,7 +67,9 @@ class CsvUpdateController extends Controller
     {
         $model = new CsvUpdate();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+            $model->date_updated = new Expression('NOW()');
+            $model->save();
             return $this->redirect(['view', 'id' => $model->id]);
         }
 
@@ -107,6 +110,17 @@ class CsvUpdateController extends Controller
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
+    }
+
+    /**
+     * Renders to the  user the import CSV data form
+     */
+    public function actionImport()
+    {
+        /*return $this->render('import', [
+            'model' => $this->findModel($id),
+        ]);*/
+        return $this->render('import');
     }
 
     /**

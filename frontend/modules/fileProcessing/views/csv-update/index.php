@@ -19,6 +19,10 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= Html::a('Create CSV Update', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
+    <p style="float: right; ">
+        <?= Html::a('Import CSV Data', ['import'], ['class' => 'btn btn-success']) ?>
+    </p>
+
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
